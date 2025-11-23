@@ -1,7 +1,7 @@
 COPILOR - Kompajler projekat za bonus 10%
 
-Autor: [Tvoje ime]
-Datum: [Danasnji datum]
+Autor: Harun
+Datum: [23.11.2025
 
 OPIS PROJEKTA:
 -------------
@@ -59,5 +59,6 @@ TESTIRANJE:
 ✅ Bytecode testovi: python compile_bc.py examples/example_bc.myopl
 
 Svi testovi prolaze uspješno!
+
 
 
