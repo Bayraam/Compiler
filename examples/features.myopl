@@ -1,0 +1,15 @@
+// Show unique features
+LET x = 5 % 2
+ECHO(x)
+
+FN tag(s) -> s + "!"
+
+IF x == 1 THEN
+	PRINT(tag("mod works"))
+ELSEIF x == 0 THEN
+	PRINT("zero")
+ELSE
+	PRINT("other")
+END
+
+

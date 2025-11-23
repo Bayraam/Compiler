@@ -1,0 +1,6 @@
+// Bytecode demo: arithmetic and PRINT
+PRINT(1 + 2 * 3)
+PRINT(10 % 3)
+PRINT("hello" + " bytecode")
+
+

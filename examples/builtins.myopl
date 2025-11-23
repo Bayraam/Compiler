@@ -1,0 +1,7 @@
+// New builtin functions demo
+PRINT(ABS(-10))
+PRINT(MIN(5, 9))
+PRINT(MAX(5, 9))
+PRINT(ROUND(3.7))
+PRINT(ROUND(3.2))
+

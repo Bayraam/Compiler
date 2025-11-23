@@ -1,0 +1,24 @@
+KAKO POKRENUTI COPILOR - Uputstvo za profesora
+===============================================
+
+1. Raspakuj ZIP fajl u bilo koji folder
+
+2. Otvori terminal/command prompt u tom folderu
+
+3. Pokreni REPL (interaktivnu konzolu):
+   python shell.py
+
+4. U REPL-u možeš:
+   - Pisati kod direktno: PRINT("Hello")
+   - Pokrenuti fajl: RUN("test_all.myopl")
+   - Pokrenuti originalni primjer: RUN("example_original.myopl")
+
+5. Za bytecode compiler:
+   python compile_bc.py examples/example_bc.myopl
+
+6. Za detaljne testove, pogledaj KAKO_TESTIRATI.md
+
+NAPOMENA: Projekat koristi samo standardne Python biblioteke.
+Nisu potrebni dodatni paketi (osim Python-a 3.x).
+
+

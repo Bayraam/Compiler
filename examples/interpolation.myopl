@@ -1,0 +1,6 @@
+// String interpolation demo
+VAR name = "Copilor"
+VAR x = 42
+PRINT("Hello ${name}! The answer is ${x}.")
+PRINT("Math: ${2 + 2} = ${2 * 2}")
+

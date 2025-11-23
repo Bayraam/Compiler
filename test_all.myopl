@@ -1,0 +1,43 @@
+// FINAL TEST - Testira sve funkcionalnosti Copilora
+// Pokreni sa: python shell.py pa RUN("test_all.myopl")
+
+PRINT("=== TEST 1: Original functionality ===")
+VAR x = 5
+VAR y = 3
+PRINT(x + y)
+
+PRINT("\n=== TEST 2: Modulo operator ===")
+PRINT(10 % 3)
+
+PRINT("\n=== TEST 3: String interpolation ===")
+VAR name = "Copilor"
+VAR num = 42
+PRINT("Hello ${name}! Answer: ${num}")
+
+PRINT("\n=== TEST 4: New builtin functions ===")
+PRINT(ABS(-10))
+PRINT(MIN(5, 9))
+PRINT(MAX(5, 9))
+PRINT(ROUND(3.7))
+
+PRINT("\n=== TEST 5: Aliases ===")
+LET z = 7
+ECHO(z)
+FN add(a, b) -> a + b
+PRINT(add(2, 3))
+
+PRINT("\n=== TEST 6: Case-insensitive ===")
+var test = "works"
+PRINT(test)
+
+PRINT("\n=== TEST 7: ELSEIF alias ===")
+IF 5 > 0 THEN
+	PRINT("positive")
+ELSEIF 5 == 0 THEN
+	PRINT("zero")
+ELSE
+	PRINT("negative")
+END
+
+PRINT("\n=== ALL TESTS PASSED ===")
+

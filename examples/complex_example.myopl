@@ -1,0 +1,75 @@
+// Kompleksniji primjer koji demonstrira sve funkcionalnosti Copilora
+
+PRINT("=== KOMPLEKSNI PRIMJER ===")
+
+// 1. String interpolation
+VAR name = "Copilor"
+VAR version = 1.0
+PRINT("Dobrodošli u ${name} v${version}!")
+
+// 2. Ternary operator
+VAR x = 10
+VAR result = x > 5 ? "veći" : "manji"
+PRINT("Broj ${x} je ${result} od 5")
+
+// 3. Range operator
+VAR numbers = 1..10
+PRINT("Brojevi od 1 do 10: ${numbers}")
+
+// 4. Modulo operator
+FOR i = 1 TO 20 THEN
+    IF i % 2 == 0 THEN
+        PRINT("${i} je paran")
+    END
+END
+
+// 5. Funkcije sa arrow syntax
+FN add(a, b) -> a + b
+FN multiply(a, b) -> a * b
+
+VAR sum = add(5, 3)
+VAR product = multiply(4, 7)
+PRINT("Suma: ${sum}, Proizvod: ${product}")
+
+// 6. Tradicionalne funkcije
+FN factorial(n)
+    IF n <= 1 THEN
+        RETURN 1
+    END
+    RETURN n * factorial(n - 1)
+END
+
+PRINT("5! = ${factorial(5)}")
+
+// 7. Builtin funkcije
+PRINT("ABS(-10) = ${ABS(-10)}")
+PRINT("MIN(5, 9) = ${MIN(5, 9)}")
+PRINT("MAX(5, 9) = ${MAX(5, 9)}")
+PRINT("ROUND(3.7) = ${ROUND(3.7)}")
+PRINT("SQRT(16) = ${SQRT(16)}")
+PRINT("FLOOR(3.9) = ${FLOOR(3.9)}")
+PRINT("CEIL(3.1) = ${CEIL(3.1)}")
+
+// 8. Liste i operacije
+VAR list = [1, 2, 3, 4, 5]
+APPEND(list, 6)
+PRINT("Lista: ${list}")
+PRINT("Dužina: ${LEN(list)}")
+
+// 9. Case-insensitive keywords
+var test1 = "radi"
+VAR test2 = "RADI"
+PRINT("${test1} i ${test2}")
+
+// 10. Aliasi
+LET y = 42
+ECHO("Echo radi kao PRINT")
+FN test() -> "Arrow funkcija sa FN"
+
+// 11. Kompleksniji izrazi
+VAR complex = (10 + 5) * 2 - 3
+VAR with_ternary = complex > 20 ? "velik" : "mali"
+PRINT("Kompleksni izraz: ${complex}, rezultat: ${with_ternary}")
+
+PRINT("\n=== KRAJ PRIMJERA ===")
+
