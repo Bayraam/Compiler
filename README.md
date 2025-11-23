@@ -231,20 +231,8 @@ python shell.py
 basic > RUN("test_all.myopl")
 ```
 
-## 📝 Napomene za ocjenjivanje (10%)
 
-- ✅ **Kompletan mali jezik** sa značajnim proširenjima:
-  * Modulo operator, string interpolation, ternary operator
-  * Range operator, case-insensitive keywords, više aliasa
-  * Dodatne builtin funkcije (ABS, MIN, MAX, ROUND, SQRT, FLOOR, CEIL)
-  * Bytecode code generation + VM demonstracija
-- ✅ **Dokumentacija**: Detaljan README sa arhitekturom i primjerima
-- ✅ **Testiranje**: Unit testovi + primjeri koda
-- ✅ **Komentari u kodu**: Objašnjavaju kako radi svaki dio
-- ✅ **Struktura**: Jasna organizacija projekta
-- ✅ **Sve je testirano i radi ispravno**
 
-## 🎯 Značajke koje pokazuju razumijevanje
 
 1. **String interpolation** - napredna funkcionalnost koja zahtijeva parsiranje izraza unutar stringa
 2. **Ternary operator** - kompletan parser i evaluator implementiran
